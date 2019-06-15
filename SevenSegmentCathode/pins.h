@@ -1,0 +1,46 @@
+/*
+ * pins.h
+ *
+ * Created: 5/31/2019 2:16:45 AM
+ *  Author: swain
+ */ 
+
+
+#ifndef PINS_H_
+#define PINS_H_
+
+
+#define HUMIDITY_1_PORT PORTC
+#define HUMIDITY_1_PIN PINC1
+
+#define HUMIDITY_2_PORT PORTC
+#define HUMIDITY_2_PIN PINC2
+
+#define HUMIDITY_3_PORT PORTC
+#define HUMIDITY_3_PIN PINC3
+
+#define HUMIDITY_LOW_PORT PORTC
+#define HUMIDITY_LOW_PIN PINC4
+
+#define HUMIDITY_HIGH_PORT PORTC
+#define HUMIDITY_HIGH_PIN PINC5
+
+#define TA_LOW_PORT PORTB
+#define TA_LOW_PIN PINB1
+
+#define TA_HIGH_PORT PORTB
+#define TA_HIGH_PIN PINB2
+
+#define TS_LOW_PORT PORTB
+#define TS_LOW_PIN PINB0
+
+#define TS_HIGH_PORT PORTB
+#define TS_HIGH_PIN PINB4
+
+#define INCUBATOR_PORT PORTD
+#define INCUBATOR_PIN PIND6
+
+#define PHOTOTHERAPHY_PORT PORTD
+#define PHOTOTHERAPHY_PIN PIND5
+
+#endif /* PINS_H_ */
